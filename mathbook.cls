@@ -1,3 +1,4 @@
+%本模板借鉴于Exbook开发
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{mathbook}[2025/04/17 mathbook class]
 
@@ -6,6 +7,7 @@
 \DeclareOption{windows}{\renewcommand\@fontset{windows}}
 \DeclareOption{mac}{\renewcommand\@fontset{mac}}
 
+%暂时没有打算用
 \newcommand\@showanswer{show} % 定义答案环境
 \DeclareOption{show}{\renewcommand\@showanswer{show}}
 \DeclareOption{noshow}{\renewcommand\@showanswer{noshow}}
