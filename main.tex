@@ -1,12 +1,15 @@
-\documentclass[standard]{mathbook} %standard(留白) padl(pad横版) 
+\documentclass[ipadH,coverone,answer,fancy,blank]{mathbook} 
 
 \begin{document}
+
 \input{config}
 \maketitle
-% 加载声明
-\include{contents/pre} 
+\input{contents/pre} 
+
+
 \tableofcontents 
 \clearpage 
-\setcounter{page}{1}
 
+\input{chapter/chapter1}
+\input{chapter/chapter2}
 \end{document}
